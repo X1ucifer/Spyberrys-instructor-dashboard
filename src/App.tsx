@@ -41,6 +41,9 @@ import { CategoryList } from "./pages/categories";
 import { ReviewsList } from "./pages/reviews";
 import { useTranslation } from "react-i18next";
 import { Header, Title, OffLayoutArea } from "components";
+import { ThemedSiderV2 } from "components/themedLayout/sider";
+
+
 import { BikeWhiteIcon, PizzaIcon } from "components/icons";
 import { ConfigProvider } from "context";
 
@@ -148,6 +151,7 @@ const App: React.FC = () => {
                                             Header={Header}
                                             Title={Title}
                                             OffLayoutArea={OffLayoutArea}
+                                            Sider={() => <ThemedSiderV2 />}
                                         >
                                             <Outlet />
                                         </ThemedLayoutV2>
