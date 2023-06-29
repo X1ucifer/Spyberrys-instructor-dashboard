@@ -74,7 +74,7 @@ const App: React.FC = () => {
                         notificationProvider={notificationProvider}
                         resources={[
                             {
-                                name: "dashboard",
+                                name: "Dashboard",
                                 list: "/",
                                 meta: {
                                     label: "Dashboard",
@@ -82,7 +82,7 @@ const App: React.FC = () => {
                                 },
                             },
                             {
-                                name: "orders",
+                                name: "Courses",
                                 list: "/orders",
                                 show: "/orders/show/:id",
                                 meta: {
@@ -90,7 +90,7 @@ const App: React.FC = () => {
                                 },
                             },
                             {
-                                name: "users",
+                                name: "Performance",
                                 list: "/users",
                                 show: "/users/show/:id",
                                 meta: {
@@ -98,14 +98,14 @@ const App: React.FC = () => {
                                 },
                             },
                             {
-                                name: "products",
+                                name: "Traffic & Conversion",
                                 list: "/products",
                                 meta: {
                                     icon: <PizzaIcon />,
                                 },
                             },
                             {
-                                name: "stores",
+                                name: "Students",
                                 list: "/stores",
                                 create: "/stores/create",
                                 edit: "/stores/edit/:id",
@@ -114,11 +114,11 @@ const App: React.FC = () => {
                                 },
                             },
                             {
-                                name: "categories",
+                                name: "Communication",
                                 list: "/categories",
                             },
                             {
-                                name: "couriers",
+                                name: "Course engagement",                              
                                 list: "/couriers",
                                 create: "/couriers/create",
                                 edit: "/couriers/edit/:id",
@@ -128,7 +128,7 @@ const App: React.FC = () => {
                                 },
                             },
                             {
-                                name: "reviews",
+                                name: "Coupons",
                                 list: "/reviews",
                                 meta: {
                                     icon: <StarOutlined />,
