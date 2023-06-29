@@ -1,0 +1,376 @@
+{
+    "pages": {
+        "login": {
+            "title": "உங்கள் கணக்குக்கு உள்நுழைக",
+            "signin": "உள்நுழைக",
+            "signup": "பதிவுபெறுக",
+            "divider": "அல்லது",
+            "fields": {
+                "email": "மின்னஞ்சல்",
+                "password": "கடவுச்சொல்"
+            },
+            "errors": {
+                "validEmail": "தவறான மின்னஞ்சல் முகவரி"
+            },
+            "buttons": {
+                "submit": "உள்நுழைவு",
+                "forgotPassword": "கடவுச்சொல் மறந்துவிட்டீர்களா?",
+                "noAccount": "உங்களுக்கு கணக்கு இல்லையா?",
+                "rememberMe": "என்னை நினைவில் கொள்ளுங்கள்"
+            }
+        },
+        "forgotPassword": {
+            "title": "கடவுச்சொல்லை மறந்துவிருந்துகிறீர்களா?",
+            "fields": {
+                "email": "மின்னஞ்சல்"
+            },
+            "errors": {
+                "validEmail": "தவறான மின்னஞ்சல் முகவரி"
+            },
+            "buttons": {
+                "submit": "மீண்டும் அமைப்புகளை அனுப்பு"
+            }
+        },
+        "register": {
+            "title": "உங்கள் கணக்கைப் பதிவுசெய்யுங்கள்",
+            "fields": {
+                "email": "மின்னஞ்சல்",
+                "password": "கடவுச்சொல்"
+            },
+            "errors": {
+                "validEmail": "தவறான மின்னஞ்சல் முகவரி"
+            },
+            "buttons": {
+                "submit": "பதிவ."
+            }
+        }
+    },
+    "actions": {
+        "list": "பட்டியல்",
+        "create": "உருவாக்கு",
+        "edit": "திருத்து",
+        "show": "காட்டு"
+    },
+    "buttons": {
+        "add": "சேர்க்க",
+        "create": "உருவாக்கு",
+        "save": "சேமி",
+        "logout": "வெளியேறு",
+        "delete": "நீக்கு",
+        "edit": "திருத்து",
+        "cancel": "ரத்துசெய்",
+        "confirm": "உறுதிப்படுத்துக?",
+        "filter": "வடிகட்டி",
+        "clear": "அழி",
+        "refresh": "புதுப்பி",
+        "show": "காட்டு",
+        "undo": "மீட்டமை",
+        "import": "இறக்குமதி",
+        "export": "ஏற்றுமதி",
+        "clone": "நகலெடு",
+        "accept": "ஏற்றுக்கொள்",
+        "acceptAll": "அனைத்தையும் ஏற்றுக்கொள்",
+        "reject": "மறுபடியும் வழிநடக்கு",
+        "rejectAll": "அனைத்தையும் மறுபடியும் வழிநடக்கு",
+        "nextStep": "அடுத்தது",
+        "previousStep": "முந்தையது"
+    },
+    "loading": "தளவாடம்",
+    "tags": {
+        "clone": "நகலெடு"
+    },
+    "table": {
+        "actions": "செயல்கள்"
+    },
+    "search": {
+        "placeholder": "கடை ஐடி, மின்னஞ்சல், முக்கிய வார்த்தையைத் தேடுக",
+        "more": "மேலும்"
+    },
+    "status": {
+        "enable": "செயலியாக்கு",
+        "disable": "முடக்கு"
+    },
+    "warnWhenUnsavedChanges": "விண்ணப்பத்தை விட்டுவிட விரும்புகிறீர்களா? முடிவப்படாத மாற்றங்கள் உள்ளன.",
+    "notifications": {
+        "success": "வெற்றி",
+        "error": "பிழை (நிலை குறியீடு: {{statusCode}})",
+        "undoable": "மீண்டும் செயல்படுத்த முடியும் {{seconds}} விநாடிகள்",
+        "createSuccess": "{{resource}} வெற்றிகரமாக உருவாக்கப்பட்டது",
+        "createError": "{{resource}} உருவாக்கும்போது பிழை ஏற்பட்டது (நிலை குறியீடு: {{statusCode}})",
+        "deleteSuccess": "{{resource}} வெற்றிகரமாக நீக்கப்பட்டது",
+        "deleteError": "{{resource}} நீக்கும்போது பிழை ஏற்பட்டது (நிலை குறியீடு: {{statusCode}})",
+        "editSuccess": "{{resource}} வெற்றிகரமாக திருத்தப்பட்டது",
+        "editError": "{{resource}} திருத்தும்போது பிழை ஏற்பட்டது (நிலை குறியீடு: {{statusCode}})",
+        "importProgress": "இறக்குமதி செய்கிறது: {{processed}}/{{total}}"
+    },
+    "categories": {
+        "categories": "பிரிவுகள்",
+        "titles": {
+            "list": "பிரிவுகள்"
+        },
+        "fields": {
+            "id": "ஐடி",
+            "title": "தலைப்பு",
+            "isActive": "செயலில் உள்ளது"
+        }
+    },
+    "couriers": {
+        "couriers": "குரியர்கள்",
+        "titles": {
+            "create": "குரியரை உருவாக்கு",
+            "list": "குரியர்கள்",
+            "edit": "குரியரை திருத்து"
+        },
+        "fields": {
+            "id": "ஐடி",
+            "avatar": {
+                "label": "அவதாரம்",
+                "description": "படத்தை இங்கு பதிவேற்ற அல்லது வலங்களை இழுத்தவும்."
+            },
+            "name": "பெயர்",
+            "surname": "குடும்பப் பெயர்",
+            "gender": {
+                "label": "பாலினம்",
+                "male": "ஆண்",
+                "female": "பெண்"
+            },
+            "gsm": "தொலைபேசி",
+            "email": "மின்னஞ்சல்",
+            "address": "முகவரி",
+            "createdAt": "உருவாக்கப்பட்டது",
+            "isActive": "செயலில் உள்ளது",
+            "images": {
+                "label": "படங்கள்",
+                "description": "பயனர் படத்தைச் சேர்க்கவும்",
+                "validation": "480x480 பிக்ஸெல் ஆக வேண்டும்"
+            },
+            "store": "கடை",
+            "vehicle": "வாகனம்",
+            "accountNumber": "கணக்கு எண்"
+        },
+        "steps": {
+            "content": "உள்ளடக்கம்",
+            "relations": "உறுப்பினர்கள்"
+        }
+    },
+    "dashboard": {
+        "title": "டாஷ்போர்டு",
+        "deliveryMap": {
+            "title": "டெலிவரி வரைபடம்"
+        },
+        "Courses": {
+            "title": "படிப்புகள்"
+        },
+        "totalSales": {
+            "title": "மொத்த விற்பனை"
+        },
+        "dailyRevenue": {
+            "title": "தினசரி வருமானம்"
+        },
+        "payouts": {
+            "title": "செலுத்துதல்கள்"
+        },
+        "newCustomers": {
+            "title": "சேர்ந்த மாணவர்கள்"
+        },
+        "timeline": {
+            "title": "காலமான்றி",
+            "orderStatuses": {
+                "pending": "ஆர்டரை தயாரிக்கின்றன",
+                "ready": "ஆர்டர் தயாரானது",
+                "on the way": "ஆர்டர் வழங்கப்படுகிறது",
+                "delivered": "ஆர்டர் வழங்கப்பட்டது",
+                "cancelled": "ஆர்டர் ரத்துசெய்யப்பட்டது"
+            }
+        },
+        "recentOrders": {
+            "title": "சமீபத்திய ஆர்டர்கள்"
+        },
+        "trendingMenus": {
+            "title": "தினசரி புகழ் பொருட்கள்"
+        }
+    },
+    "enum": {
+        "orderStatuses": {
+            "Pending": "நிலுவையில்",
+            "Ready": "தயாரானது",
+            "On The Way": "வழியில்",
+            "Delivered": "வழங்கப்பட்டது",
+            "Cancelled": "ரத்துசெய்யப்பட்டது"
+        }
+    },
+    "Courses": {
+        "Courses": "படிப்புகள்",
+        "titles": {
+            "list": "ஆர்டர்கள்",
+            "show": "ஆர்டரைக் காட்டு"
+        },
+        "fields": {
+            "orderNumber": "ஆர்டர் எண்",
+            "orderID": "ஆர்டர் ஐடி",
+            "status": "நிலை",
+            "store": "கடை",
+            "user": "பயனர்",
+            "products": "பொருட்கள்",
+            "createdAt": "உருவாக்கப்பட்டது",
+            "amount": "மொத்தம்",
+            "itemsAmount": "{{amount}} பொருட்கள்"
+        },
+        "filter": {
+            "title": "வடிகட்டல்கள்",
+            "search": {
+                "label": "தேடு",
+                "placeholder": "ஆர்டர் எண், பயனர், மற்றும் போதுமானவை"
+            },
+            "status": {
+                "label": "நிலை",
+                "placeholder": "ஆர்டர் நிலை"
+            },
+            "store": {
+                "label": "கடை",
+                "placeholder": "கடைகளை தேடு"
+            },
+            "user": {
+                "label": "பயனர்",
+                "placeholder": "பயனர்களை தேடு"
+            },
+            "createdAt": {
+                "label": "உருவாக்கப்பட்டது"
+            },
+            "submit": "வடிகட்டம்"
+        },
+        "courier": {
+            "deliveryTime": "விநியோக நேரம்",
+            "phone": "தொலைபேசி"
+        },
+        "deliverables": {
+            "deliverables": "வழங்கும் பொருட்கள்",
+            "fields": {
+                "items": "பொருட்கள்",
+                "quantity": "அளவு",
+                "price": "விலை",
+                "total": "மொத்தம்"
+            },
+            "mainTotal": "மொத்த மொத்தம்"
+        }
+    },
+    "products": {
+        "products": "பொருட்கள்",
+        "titles": {
+            "list": "பொருட்கள்",
+            "create": "பொருள் உருவாக்கு",
+            "edit": "பொருளை திருத்து"
+        },
+        "fields": {
+            "id": "ஐடி",
+            "name": "பெயர்",
+            "description": "விளக்கம்",
+            "isActive": "செயலில் உள்ளது",
+            "price": "விலை",
+            "category": "வகை",
+            "images": {
+                "label": "படங்கள்",
+                "description": "பொருளின் படத்தைச் சேர்க்கவும்",
+                "validation": "1080x1080 பிக்ஸெல் ஆக இருக்க வேண்டும்"
+            },
+            "createdAt": "உருவாக்கப்பட்டது"
+        }
+    },
+    "reviews": {
+        "reviews": "மதிப்புரிமைகள்",
+        "titles": {
+            "list": "மதிப்புரிமைகள்"
+        },
+        "fields": {
+            "user": "பயனர்",
+            "orderId": "ஆர்டர் ஐடி",
+            "review": "மதிப்பு",
+            "rating": "மதிப்பிடுதல்"
+        }
+    },
+    "stores": {
+        "stores": "கடைகள்",
+        "titles": {
+            "create": "கடை உருவாக்கு",
+            "edit": "கடையை திருத்து",
+            "list": "கடைகள்",
+            "show": "கடையைக் காட்டு"
+        },
+        "fields": {
+            "id": "கடை ஐடி",
+            "title": "தலைப்பு",
+            "isActive": "செயலில் உள்ளது",
+            "createdAt": "உருவாக்கப்பட்டது",
+            "address": "முகவரி",
+            "email": "மின்னஞ்சல்",
+            "gsm": "தொலைபேசி"
+        },
+        "buttons": {
+            "editProducts": "பொருட்களை திருத்து",
+            "addProduct": "பொருளைச் சேர்க்கவும்",
+            "outOfStock": "பொருட்கள் கையிருக்கவில்லை",
+            "edit": "பொருளை திருத்து"
+        },
+        "selectLocation": "வரைபடத்தில் கடை இருப்பிடத்தைத் தேர்வுசெய்க",
+        "storeProducts": "கடை பொருட்கள்",
+        "tagFilterDescription": "தேடலை வடிகட்டுவதற்கு குறிச்சொற்களைப் பயன்படுத்துக",
+        "all": "அனைத்தும்",
+        "productSearch": "பொருள் தேடல்"
+    },
+    "users": {
+        "users": "பயனர்கள்",
+        "titles": {
+            "edit": "பயனரை திருத்து",
+            "list": "பயனர்கள்",
+            "show": "பயனர் விபரம்"
+        },
+        "fields": {
+            "id": "ஐடி",
+            "avatar": {
+                "label": "அவதாரம்",
+                "description": "அவதார் படத்தை கிளிக் செய்யவும் அல்லது இங்கே இழுத்துக்களவும் பயன்படுத்துங்கள்."
+            },
+            "firstName": "முதல் பெயர்",
+            "lastName": "கடைசி பெயர்",
+            "gender": {
+                "label": "பாலினம்",
+                "Male": "ஆண்",
+                "Female": "பெண்"
+            },
+            "gsm": "மொபைல் எண்",
+            "createdAt": "உருவாக்கப்பட்டது",
+            "isActive": {
+                "label": "செயலில் உள்ளது",
+                "true": "ஆம்",
+                "false": "இல்லை"
+            }
+        },
+        "filter": {
+            "title": "வடிகட்டுகள்",
+            "search": {
+                "label": "தேடு",
+                "placeholder": "முதல் பெயர், கடைசி பெயர், மொபைல் எண், போன்றவை"
+            },
+            "createdAt": {
+                "label": "உருவாக்கப்பட்ட நேரம்"
+            },
+            "gender": {
+                "label": "பாலினம்",
+                "placeholder": "பாலினம்",
+                "male": "ஆண்",
+                "female": "பெண்"
+            },
+            "isActive": {
+                "label": "செயலில் உள்ளது",
+                "placeholder": "செயலில் உள்ள நிலை",
+                "true": "ஆம்",
+                "false": "இல்லை"
+            },
+            "submit": "வடிகட்டு"
+        },
+        "addresses": {
+            "addresses": "முகவரிகள்",
+            "address": "முகவரி"
+        }
+    }
+}

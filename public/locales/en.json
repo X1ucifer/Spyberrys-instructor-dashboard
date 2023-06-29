@@ -187,11 +187,11 @@
         "dailyRevenue": {
             "title": "Daily Revenue"
         },
-        "dailyOrders": {
-            "title": "Daily Orders"
+        "payouts": {
+            "title": "Payouts"
         },
         "newCustomers": {
-            "title": "New Customers"
+            "title": "Enrolled Students"
         },
         "timeline": {
             "title": "Timeline",
@@ -219,8 +219,8 @@
             "Cancelled": "Cancelled"
         }
     },
-    "orders": {
-        "orders": "Orders",
+    "Courses": {
+        "Courses": "Courses",
         "titles": {
             "list": "Orders",
             "show": "Show Order"
