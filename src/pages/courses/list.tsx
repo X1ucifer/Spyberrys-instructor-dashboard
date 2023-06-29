@@ -137,7 +137,7 @@ export const OrderList: React.FC<IResourceComponentsProps> = () => {
                     marginTop: "52px",
                 }}
             >
-                <Card title={t("orders.filter.title")}>
+                <Card title={t("Courses.filter.title")}>
                     <Filter
                         formProps={searchFormProps}
                         filters={filters || []}

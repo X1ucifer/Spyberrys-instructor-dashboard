@@ -250,6 +250,7 @@ export const ThemedSiderV2: React.FC<RefineThemedLayoutV2SiderProps> = ({
                   padding: "0 16px",
                   display: "flex",
                   justifyContent: "flex-start",
+                  
                   alignItems: "center",
                   height: "64px",
                   backgroundColor: token.colorBgElevated,

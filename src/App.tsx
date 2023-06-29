@@ -26,7 +26,7 @@ import { authProvider } from "authProvider";
 import "dayjs/locale/de";
 
 import { DashboardPage } from "./pages/dashboard";
-import { OrderList, OrderShow } from "./pages/orders";
+import { OrderList, OrderShow } from "./pages/courses";
 import { AuthPage } from "./pages/auth";
 import { UserList, UserShow } from "./pages/users";
 import {
@@ -85,8 +85,8 @@ const App: React.FC = () => {
                                 },
                             },
                             {
-                                name: "Courses",
-                                list: "/orders",
+                                name: "orders",
+                                list: "/courses",
                                 show: "/orders/show/:id",
                                 meta: {
                                     icon: <ShoppingOutlined />,
@@ -151,7 +151,7 @@ const App: React.FC = () => {
                                             Header={Header}
                                             Title={Title}
                                             OffLayoutArea={OffLayoutArea}
-                                            Sider={() => <ThemedSiderV2 />}
+                                            Sider={() => <ThemedSiderV2  fixed />}
                                         >
                                             <Outlet />
                                         </ThemedLayoutV2>
@@ -160,7 +160,7 @@ const App: React.FC = () => {
                             >
                                 <Route index element={<DashboardPage />} />
 
-                                <Route path="/orders">
+                                <Route path="/courses">
                                     <Route index element={<OrderList />} />
                                     <Route
                                         path="show/:id"
