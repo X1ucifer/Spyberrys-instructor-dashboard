@@ -60,7 +60,6 @@ const App: React.FC = () => {
 
     return (
         <BrowserRouter>
-            <GitHubBanner />
             <ConfigProvider>
                 <RefineKbarProvider>
                     <Refine

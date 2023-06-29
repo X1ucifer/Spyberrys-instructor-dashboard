@@ -5,7 +5,7 @@ import { ToggleContainer } from "./styled";
 
 export const OffLayoutArea = () => {
     return (
-        <ToggleContainer>
+        <ToggleContainer style={{backgroundColor:"black"}} >
             <RefineKbar />
             <LeftOutlined />
             <a href="https://example.refine.dev">

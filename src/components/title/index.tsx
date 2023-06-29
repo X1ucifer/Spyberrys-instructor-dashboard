@@ -17,14 +17,11 @@ export const Title: React.FC<TitleProps> = ({ collapsed }) => {
         <Logo>
             <Link to="/">
                 {collapsed ? (
-                    <BikeWhiteIcon
-                        style={{
-                            fontSize: "32px",
-                            color: token.colorTextHeading,
-                        }}
-                    />
+                    // <img src="/refine-collapsed.svg" alt="Refine" width="28px" />
+                    <h2>S</h2>
                 ) : (
-                    <FineFoodsIcon style={{ color: token.colorTextHeading }} />
+                    // <img src="/refine.svg" alt="Refine" width="140px" />
+                    <h2>Spyberrys</h2>
                 )}
             </Link>
         </Logo>
