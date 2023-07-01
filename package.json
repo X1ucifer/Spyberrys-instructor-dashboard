@@ -31,6 +31,7 @@
     "i18next": "^20.1.0",
     "i18next-browser-languagedetector": "^6.1.1",
     "i18next-xhr-backend": "^3.2.2",
+    "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -41,7 +42,7 @@
     "tslib": "^2.3.1"
   },
   "scripts": {
-    "start": "cross-env DISABLE_ESLINT_PLUGIN=true refine start",
+    "start": "set PORT=3001 && cross-env DISABLE_ESLINT_PLUGIN=true refine start",
     "build": "cross-env DISABLE_ESLINT_PLUGIN=true refine build",
     "test": "react-scripts test --passWithNoTests --watchAll=false",
     "eject": "react-scripts eject",
