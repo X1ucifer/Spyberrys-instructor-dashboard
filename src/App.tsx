@@ -84,14 +84,15 @@ const App: React.FC = () => {
                                     icon: <DashboardOutlined />,
                                 },
                             },
+
                             {
-                                name: "orders",
-                                list: "/courses",
-                                show: "/orders/show/:id",
+                                name: "Courses",
+                                list: "/products",
                                 meta: {
-                                    icon: <ShoppingOutlined />,
+                                    icon: <PizzaIcon />,
                                 },
                             },
+                            
                             {
                                 name: "Performance",
                                 list: "/users",
@@ -102,9 +103,10 @@ const App: React.FC = () => {
                             },
                             {
                                 name: "Traffic & Conversion",
-                                list: "/products",
+                                list: "/courses",
+                                show: "/orders/show/:id",
                                 meta: {
-                                    icon: <PizzaIcon />,
+                                    icon: <ShoppingOutlined />,
                                 },
                             },
                             {
