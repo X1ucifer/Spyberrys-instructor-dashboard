@@ -71,7 +71,6 @@ export const authProvider: AuthBindings = {
                 })
                 .catch(() => {
                     console.log('Server is not available');
-                    alert('Server is not available'); // Display alert message
                     reject(new Error('Server is not available'));
                 });
         });
@@ -105,13 +104,13 @@ export const authProvider: AuthBindings = {
             return null;
         }
 
-        const cleanedToken = token.slice(1, -1);;
-        const t = cleanedToken.split("-");
+        const cleanedToken = token.slice(1, -1);
+        
 
         try {
             const response = await fetch("http://43.205.207.125/api/v1/auth/get_instructor", {
                 headers: {
-                    Authorization: `Bearer ${t}`,
+                    Authorization: `Bearer ${cleanedToken}`,
                 },
             });
 
