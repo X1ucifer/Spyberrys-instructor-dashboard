@@ -1,16 +1,15 @@
 import { Row, Col, Card, Typography } from "antd";
 import { useTranslation } from "react-i18next";
-
+import { LineChart } from '@mui/x-charts/LineChart';
 import {
     DailyRevenue,
     DailyOrders,
     NewCustomers,
-    DeliveryMap,
-    OrderTimeline,
     RecentOrders,
     TrendingMenu,
 } from "components";
-
+import DashboardChart from "components/dashboard/charts/dashboardchart";
+import PieCharts from "components/dashboard/charts/piechart";
 const { Text } = Typography;
 
 export const DashboardPage: React.FC = () => {
@@ -70,25 +69,11 @@ export const DashboardPage: React.FC = () => {
                     </Col>
                 </Row>
             </Col>
-            <Col xl={17} lg={16} md={24} sm={24} xs={24}>
-                <Card
-                    bodyStyle={{
-                        height: 550,
-                        padding: 0,
-                    }}
-                    title={
-                        <Text
-                            strong /* style={{ fontSize: 24, fontWeight: 800 }} */
-                        >
-                            {t("dashboard.deliveryMap.title")}
-                        </Text>
-                    }
-                >
-                    <DeliveryMap />
-                </Card>
+            <Col xl={14} lg={16} md={24} sm={24} xs={24}>
+               <DashboardChart/>
             </Col>
-            <Col xl={7} lg={8} md={24} sm={24} xs={24}>
-                <Card
+            <Col xl={10} lg={8} md={24} sm={24} xs={24}>
+                {/* <Card
                     bodyStyle={{
                         height: 550,
                         overflowY: "scroll",
@@ -100,25 +85,26 @@ export const DashboardPage: React.FC = () => {
                     }
                 >
                     <OrderTimeline />
-                </Card>
+                </Card> */}
+                <PieCharts/>
             </Col>
             <Col xl={17} lg={16} md={24} sm={24} xs={24}>
-                <Card
+                {/* <Card
                     title={
                         <Text strong>{t("dashboard.recentOrders.title")}</Text>
                     }
                 >
                     <RecentOrders />
-                </Card>
+                </Card> */}
             </Col>
             <Col xl={7} lg={8} md={24} sm={24} xs={24}>
-                <Card
+                {/* <Card
                     title={
                         <Text strong>{t("dashboard.trendingMenus.title")}</Text>
                     }
                 >
                     <TrendingMenu />
-                </Card>
+                </Card> */}
             </Col>
         </Row>
     );
